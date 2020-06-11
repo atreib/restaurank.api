@@ -1,0 +1,16 @@
+C:\csharp\restaurank.api\bin\Debug\netcoreapp2.2\restaurank.api.deps.json
+C:\csharp\restaurank.api\bin\Debug\netcoreapp2.2\restaurank.api.runtimeconfig.json
+C:\csharp\restaurank.api\bin\Debug\netcoreapp2.2\restaurank.api.runtimeconfig.dev.json
+C:\csharp\restaurank.api\bin\Debug\netcoreapp2.2\restaurank.api.dll
+C:\csharp\restaurank.api\bin\Debug\netcoreapp2.2\restaurank.api.pdb
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.csprojAssemblyReference.cache
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.csproj.CoreCompileInputs.cache
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.RazorAssemblyInfo.cache
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.RazorAssemblyInfo.cs
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.AssemblyInfoInputs.cache
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.AssemblyInfo.cs
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.RazorTargetAssemblyInfo.cache
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.dll
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.pdb
+C:\csharp\restaurank.api\bin\Debug\netcoreapp2.2\restaurank.api.xml
+C:\csharp\restaurank.api\obj\Debug\netcoreapp2.2\restaurank.api.xml
