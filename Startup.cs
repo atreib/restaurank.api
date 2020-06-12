@@ -96,6 +96,8 @@ namespace restaurank.api
             services.AddScoped<IAuthService, AuthService>();
             services.AddScoped<IVotesRepository, VotesRepository>();
             services.AddScoped<IVoteService, VoteService>();
+            services.AddScoped<IRestaurantsRepository, RestaurantsRepository>();
+            services.AddScoped<IRestaurantService, RestaurantService>();
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)

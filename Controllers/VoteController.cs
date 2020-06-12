@@ -93,9 +93,9 @@ namespace restaurank.api.Controllers
             try {
                 return Json(await _voteService.GetTodayRestaurantAsync());
             } 
-            catch
+            catch (Exception ex)
             {
-                return StatusCode(500, new Exception("Ops, tivemos um problema"));
+                return StatusCode(500, ex);
             }
         }
     }

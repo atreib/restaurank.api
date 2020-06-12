@@ -14,6 +14,15 @@
             <response code="422">Processamento encerrado, analise a mensagem retornada</response>
             <response code="500">Erro interno, entre em contato com o administrador</response>
         </member>
+        <member name="M:restaurank.api.Controllers.RestaurantController.GetTodayRestaurantAsync">
+            <summary>
+            Listagem de todos os restaurantes cadastrados
+            </summary>
+            <returns>Array do model dos restaurantes cadastrados</returns>
+            <response code="200">Array do model dos restaurantes cadastrados</response>
+            <response code="401">Não foi enviado o JWT no Header</response>
+            <response code="500">Erro interno, entre em contato com o administrador</response>
+        </member>
         <member name="M:restaurank.api.Controllers.VoteController.Vote(restaurank.api.Controllers.VoteController.AddVoteModel)">
             <summary>
             Declarar voto de um usuário em um restaurante para amanhã
@@ -21,6 +30,7 @@
             <returns>Sem retorno</returns>
             <response code="200">Sucesso ao realizar o voto</response>
             <response code="400">Parâmetros enviados estão incorretos</response>
+            <response code="401">Não foi enviado o JWT no Header</response>
             <response code="500">Erro interno, entre em contato com o administrador</response>
         </member>
         <member name="M:restaurank.api.Controllers.VoteController.GetDidUserAlreadyVotedAsync(System.Int32)">
@@ -30,6 +40,7 @@
             <returns>Booleano informando se o usuário já votou (true) ou não (false)</returns>
             <response code="200">Booleano informando se o usuário já votou ou não</response>
             <response code="400">ID do usuário não foi informado</response>
+            <response code="401">Não foi enviado o JWT no Header</response>
             <response code="500">Erro interno, entre em contato com o administrador</response>
         </member>
         <member name="M:restaurank.api.Controllers.VoteController.GetTodayRestaurantAsync">
@@ -38,6 +49,7 @@
             </summary>
             <returns>Model do restaurante escolhido para hoje</returns>
             <response code="200">Model do restaurante escolhido para hoje</response>
+            <response code="401">Não foi enviado o JWT no Header</response>
             <response code="500">Erro interno, entre em contato com o administrador</response>
         </member>
     </members>

@@ -23,7 +23,8 @@ namespace restaurank.api.Infra.Db.SqlServer
             builder.Entity<UserModel>().Property(p => p.Password).IsRequired().HasMaxLength(255);
             builder.Entity<UserModel>().HasData(
                 new UserModel { Id = 10, Login = "andre", Password = "$2b$12$F9IJedOAcH4QB/Jk3h3w9OTmo/UAIKf4dEJve1OcAd9TDZyG6zU4W" },
-                new UserModel { Id = 20, Login = "teste", Password = "$2b$12$F9IJedOAcH4QB/Jk3h3w9OTmo/UAIKf4dEJve1OcAd9TDZyG6zU4W" }
+                new UserModel { Id = 20, Login = "teste", Password = "$2b$12$F9IJedOAcH4QB/Jk3h3w9OTmo/UAIKf4dEJve1OcAd9TDZyG6zU4W" },
+                new UserModel { Id = 30, Login = "teste2", Password = "$2b$12$F9IJedOAcH4QB/Jk3h3w9OTmo/UAIKf4dEJve1OcAd9TDZyG6zU4W" }
             );
 
             builder.Entity<RestaurantModel>().ToTable("Restaurants");
@@ -55,15 +56,16 @@ namespace restaurank.api.Infra.Db.SqlServer
                 .HasForeignKey(p => p.RestaurantId)
                 .IsRequired();
             builder.Entity<VoteModel>().HasData(
-                new VoteModel { Id = 10, UserId = 10, RestaurantId = 10, LunchDay = System.DateTime.Now.AddDays(-5) },
-                new VoteModel { Id = 20, UserId = 20, RestaurantId = 10, LunchDay = System.DateTime.Now.AddDays(-5) },
-                new VoteModel { Id = 30, UserId = 10, RestaurantId = 20, LunchDay = System.DateTime.Now.AddDays(-4) },
-                new VoteModel { Id = 40, UserId = 20, RestaurantId = 20, LunchDay = System.DateTime.Now.AddDays(-4) },
-                new VoteModel { Id = 50, UserId = 10, RestaurantId = 10, LunchDay = System.DateTime.Now.AddDays(-3) },
-                new VoteModel { Id = 60, UserId = 20, RestaurantId = 20, LunchDay = System.DateTime.Now.AddDays(-3) },
-                new VoteModel { Id = 70, UserId = 10, RestaurantId = 30, LunchDay = System.DateTime.Now.AddDays(-2) },
+                new VoteModel { Id = 10, UserId = 10, RestaurantId = 10, LunchDay = System.DateTime.Now.AddDays(-4) },
+                new VoteModel { Id = 20, UserId = 20, RestaurantId = 10, LunchDay = System.DateTime.Now.AddDays(-4) },
+                new VoteModel { Id = 30, UserId = 10, RestaurantId = 20, LunchDay = System.DateTime.Now.AddDays(-5) },
+                new VoteModel { Id = 40, UserId = 20, RestaurantId = 20, LunchDay = System.DateTime.Now.AddDays(-5) },
+                new VoteModel { Id = 50, UserId = 10, RestaurantId = 10, LunchDay = System.DateTime.Now.AddDays(-2) },
+                new VoteModel { Id = 60, UserId = 20, RestaurantId = 30, LunchDay = System.DateTime.Now.AddDays(-2) },
+                new VoteModel { Id = 70, UserId = 10, RestaurantId = 40, LunchDay = System.DateTime.Now.AddDays(-1) },
                 new VoteModel { Id = 80, UserId = 10, RestaurantId = 10, LunchDay = System.DateTime.Now },
-                new VoteModel { Id = 90, UserId = 20, RestaurantId = 10, LunchDay = System.DateTime.Now }
+                new VoteModel { Id = 90, UserId = 30, RestaurantId = 10, LunchDay = System.DateTime.Now },
+                new VoteModel { Id = 91, UserId = 20, RestaurantId = 50, LunchDay = System.DateTime.Now }
             );
         }
     }
