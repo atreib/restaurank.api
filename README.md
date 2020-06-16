@@ -55,7 +55,7 @@ Para que eu possa me despir de preconceitos e preparar o psicológico.
 
 # Design pattern do Backend:
 
-![RestauRank%20Challenge%202%20e923b736428e41a4a8142141e96c9a88/DBServer_-_Desafio2x_(4).png](RestauRank%20Challenge%202%20e923b736428e41a4a8142141e96c9a88/DBServer_-_Desafio2x_(4).png)
+![https://i.ibb.co/fQHLqsY/DBServer-Desafio2x-4.png](https://i.ibb.co/fQHLqsY/DBServer-Desafio2x-4.png)
 
 ## Rodando o projeto:
 
